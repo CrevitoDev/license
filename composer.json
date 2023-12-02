@@ -1,0 +1,24 @@
+{
+    "name": "crevito/license",
+    "description": "License services for application.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "license"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Crevito\\License\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Crevito\\License\\UtilityServiceProvider"
+            ]
+        }
+    }
+}
